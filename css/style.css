@@ -60,4 +60,35 @@ section.one {
     text-align: center;
     color: grey; }
 
+section.two {
+  background-color: #4a3f60;
+  padding: 3em 15em; }
+  section.two:before, section.two:after {
+    content: "";
+    display: table; }
+  section.two:after {
+    clear: both; }
+  section.two figure {
+    float: left;
+    width: 45%;
+    margin-right: 2.5%;
+    margin-bottom: 3em; }
+    section.two figure div {
+      float: left;
+      border-radius: 50%;
+      background-color: #443959;
+      width: 120px;
+      height: 120px;
+      padding-top: 28px; }
+      section.two figure div img {
+        width: 60%;
+        display: block;
+        margin: 0 auto; }
+    section.two figure figcaption {
+      float: right;
+      width: 60%;
+      margin-top: 3em;
+      color: #fff;
+      margin-right: 2em; }
+
 /*# sourceMappingURL=style.css.map */

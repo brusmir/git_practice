@@ -44,3 +44,39 @@ section.one {
 		color: grey;
 	}
 }
+
+section.two {
+	background-color: $main_purple;
+	padding: 3em 15em;
+	@include clearfix;
+
+	figure {
+		float: left;
+		width: 45%;
+		margin-right: 2.5%;
+		margin-bottom: 3em;
+
+		div {
+			float: left;
+			border-radius: 50%;
+			background-color: $purple_dark;
+			width: 120px;
+			height: 120px;
+			padding-top: 28px;
+
+			img {
+				width: 60%;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+
+		figcaption {
+			float: right;
+			width: 60%;
+			margin-top: 3em;
+			color: #fff;
+			margin-right: 2em;
+		}
+	}
+}
