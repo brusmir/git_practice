@@ -69,4 +69,35 @@ section.one {
     font-weight: normal;
     color: grey; }
 
+h2 {
+  text-align: center;
+  color: orange;
+  border-bottom: 1px solid orange;
+  width: 90%;
+  margin: .7em auto .3em; }
+
+section.two {
+  width: 70%;
+  margin: 0 auto 1em; }
+  section.two p {
+    margin-bottom: 1em; }
+  section.two p:nth-of-type(2) {
+    column-count: 2; }
+  section.two figure {
+    display: inline-block;
+    width: 31.5%;
+    margin-right: -4px;
+    border: 1px solid blue;
+    border-top: none;
+    padding: 1em 2.5em;
+    text-align: center; }
+    section.two figure h3 {
+      color: orange; }
+    section.two figure img {
+      margin: 1em 0;
+      display: inline-block;
+      border-radius: 50%; }
+  section.two figure:nth-of-type(2) {
+    margin: 0 2.5%; }
+
 /*# sourceMappingURL=style.css.map */
