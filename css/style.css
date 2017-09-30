@@ -31,7 +31,10 @@
 header {
   width: 100%;
   padding: .7em;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff; }
   header nav {
     width: 100%; }
     header nav ul {
@@ -45,5 +48,25 @@ header {
           color: black; }
           header nav ul li a:hover {
             color: green; }
+
+section.one {
+  background: url("../images/bkg1.jpg");
+  background-size: cover;
+  width: 90%;
+  height: 450px;
+  margin: 0 auto;
+  padding-top: 40.38px; }
+  section.one h1 {
+    width: 50%;
+    margin: 0 auto;
+    padding: 7em 0 .5em;
+    text-align: center;
+    color: orange; }
+  section.one h2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: normal;
+    color: grey; }
 
 /*# sourceMappingURL=style.css.map */
