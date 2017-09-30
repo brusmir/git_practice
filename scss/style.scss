@@ -53,3 +53,90 @@ header {
 		}
 	}
 }
+
+main {
+	margin-top: 2em;
+
+	section.one {
+		background-color: black;
+		@include clearfix;
+
+		div {
+			float: left;
+		}
+
+		div:first-child {
+			width: 40%;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		div:nth-of-type(2n) {
+			width: 60%;
+			padding-right: 2em;
+			padding-top: 2em;
+			padding-bottom: 1em;
+			text-align: right;
+
+			h2 {
+				background-color: #fff;
+				display: inline-block;
+				margin-bottom: .7em;
+				text-align: center;
+				padding: .3em .7em;
+				font-family: $heading_font;
+			}			
+
+			p {
+				color: #fff;
+				text-align: justify;
+			}
+		}
+	}
+
+	section.two {
+		@include clearfix;
+		padding: 0 2em 1em;
+		background-color: #000;
+
+		div {
+			float: left;
+			width: 33.3%;
+			padding: 0 .3em;
+
+			h3 {
+				color: #fff;
+				font-family: $heading_font;
+				background-color: red;
+				padding: .5em .3em;
+			}
+
+			p {
+				color: #fff;
+				padding: .5em 0;
+				text-align: justify;
+			}
+
+			a {
+				display: inline-block;
+				padding: .3em .6em;
+				background-color: #fff;
+				text-decoration: none;
+				color: #000;
+			}
+		}
+
+		div:not(:last-child) {
+			border-right: 1px solid #fff;
+		}
+	}
+}
+
+footer {
+	background-color: #fff;
+	padding: .5em 1em;
+	margin-top: 1em;
+	border-radius: 10px;
+}

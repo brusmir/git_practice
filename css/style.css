@@ -69,4 +69,71 @@ header {
           header nav ul li a img {
             width: 100%; }
 
+main {
+  margin-top: 2em; }
+  main section.one {
+    background-color: black; }
+    main section.one:before, main section.one:after {
+      content: "";
+      display: table; }
+    main section.one:after {
+      clear: both; }
+    main section.one div {
+      float: left; }
+    main section.one div:first-child {
+      width: 40%; }
+      main section.one div:first-child img {
+        width: 100%; }
+    main section.one div:nth-of-type(2n) {
+      width: 60%;
+      padding-right: 2em;
+      padding-top: 2em;
+      padding-bottom: 1em;
+      text-align: right; }
+      main section.one div:nth-of-type(2n) h2 {
+        background-color: #fff;
+        display: inline-block;
+        margin-bottom: .7em;
+        text-align: center;
+        padding: .3em .7em;
+        font-family: "Lobster", cursive; }
+      main section.one div:nth-of-type(2n) p {
+        color: #fff;
+        text-align: justify; }
+  main section.two {
+    padding: 0 2em 1em;
+    background-color: #000; }
+    main section.two:before, main section.two:after {
+      content: "";
+      display: table; }
+    main section.two:after {
+      clear: both; }
+    main section.two div {
+      float: left;
+      width: 33.3%;
+      padding: 0 .3em; }
+      main section.two div h3 {
+        color: #fff;
+        font-family: "Lobster", cursive;
+        background-color: red;
+        padding: .5em .3em; }
+      main section.two div p {
+        color: #fff;
+        padding: .5em 0;
+        text-align: justify; }
+      main section.two div a {
+        display: inline-block;
+        padding: .3em .6em;
+        background-color: #fff;
+        text-decoration: none;
+        color: #000; }
+    main section.two div:not(:last-child) {
+      border-right: 1px solid #fff; }
+
+footer {
+  background-color: #fff;
+  padding: .5em 1em;
+  margin-top: 1em;
+  border-radius: 10px; }
+
 /*# sourceMappingURL=style.css.map */
