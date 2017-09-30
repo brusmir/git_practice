@@ -91,4 +91,29 @@ section.two {
       color: #fff;
       margin-right: 2em; }
 
+footer {
+  padding: 4em 15em; }
+  footer h2 {
+    text-align: center; }
+  footer h6 {
+    text-align: center;
+    color: grey;
+    margin-bottom: 2em; }
+  footer form {
+    background-color: #eee;
+    padding: 1em; }
+    footer form input {
+      display: inline-block;
+      width: 47.5%;
+      padding: .5em .3em;
+      margin-bottom: 1em;
+      color: green; }
+    footer form input:first-child {
+      margin-right: 4.5%; }
+    footer form textarea {
+      display: inline-block;
+      width: 100%;
+      padding: .5em .3em 2em;
+      color: green; }
+
 /*# sourceMappingURL=style.css.map */
