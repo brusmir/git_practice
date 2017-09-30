@@ -139,4 +139,10 @@ section.three {
     float: right;
     width: 50%; }
 
+footer {
+  padding: .5em;
+  background-color: blue;
+  color: #fff;
+  text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
