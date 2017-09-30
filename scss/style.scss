@@ -104,6 +104,8 @@ footer {
 			padding: .5em .3em;
 			margin-bottom: 1em;
 			color: green;
+			box-shadow: none;
+			border: none;
 		}
 
 		input:first-child {
@@ -115,6 +117,54 @@ footer {
 			width: 100%;
 			padding: .5em .3em 2em;
 			color: green;
+			box-shadow: none;
+			border: none;
+		}
+	}
+}
+
+@include tablet {
+	header {
+		padding: .5em 5em;
+	}
+
+	section.one {
+		padding: 5em 2em 14em;
+	}
+
+	section.two {
+		padding: 3em 10em;
+
+		figure {
+			margin-right: 0;
+
+			div {
+				width: 75px;
+				height: 75px;
+				padding-top: 18px;
+				margin-left: 2em; 
+			}
+
+			figcaption {
+				width: 100%;
+				margin-top: 1em;
+				margin-right: 0;
+				text-align: center;
+			}
+		}
+
+		figure:first-child, figure:nth-of-type(3) {
+			margin-right: 5%;
+		}
+	}
+
+	footer {
+		padding: 4em 7em;
+
+		form {
+			input {
+				width: 47%;
+			}
 		}
 	}
 }

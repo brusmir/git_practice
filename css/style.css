@@ -107,13 +107,46 @@ footer {
       width: 47.5%;
       padding: .5em .3em;
       margin-bottom: 1em;
-      color: green; }
+      color: green;
+      box-shadow: none;
+      border: none; }
     footer form input:first-child {
       margin-right: 4.5%; }
     footer form textarea {
       display: inline-block;
       width: 100%;
       padding: .5em .3em 2em;
-      color: green; }
+      color: green;
+      box-shadow: none;
+      border: none; }
+
+@media screen and (max-width: 950px) {
+  header {
+    padding: .5em 5em; }
+
+  section.one {
+    padding: 5em 2em 14em; }
+
+  section.two {
+    padding: 3em 10em; }
+    section.two figure {
+      margin-right: 0; }
+      section.two figure div {
+        width: 75px;
+        height: 75px;
+        padding-top: 18px;
+        margin-left: 2em; }
+      section.two figure figcaption {
+        width: 100%;
+        margin-top: 1em;
+        margin-right: 0;
+        text-align: center; }
+    section.two figure:first-child, section.two figure:nth-of-type(3) {
+      margin-right: 5%; }
+
+  footer {
+    padding: 4em 7em; }
+    footer form input {
+      width: 47%; } }
 
 /*# sourceMappingURL=style.css.map */
