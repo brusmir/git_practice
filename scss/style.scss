@@ -33,3 +33,14 @@ header {
 		}
 	}
 }
+
+section.one {
+	background-color: $main_red;
+	padding: 5em 10em 14em;
+
+	h1 {
+		margin: 0 auto;
+		text-align: center;
+		color: grey;
+	}
+}

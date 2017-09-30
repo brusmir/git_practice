@@ -52,4 +52,12 @@ header {
           color: #000;
           margin-right: 1em; }
 
+section.one {
+  background-color: #e26868;
+  padding: 5em 10em 14em; }
+  section.one h1 {
+    margin: 0 auto;
+    text-align: center;
+    color: grey; }
+
 /*# sourceMappingURL=style.css.map */
