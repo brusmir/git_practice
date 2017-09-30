@@ -148,5 +148,41 @@ footer {
     padding: 4em 7em; }
     footer form input {
       width: 47%; } }
+@media screen and (max-width: 650px) {
+  header {
+    padding: 0; }
+    header img {
+      float: none;
+      display: block;
+      margin: 0 auto; }
+    header nav {
+      float: none; }
+      header nav ul li {
+        display: block;
+        text-align: center;
+        padding: 1em; }
+        header nav ul li a {
+          margin: 0; }
+
+  section.two {
+    padding: 3em; }
+    section.two figure {
+      float: none;
+      display: block;
+      width: 100%;
+      margin-right: 0; }
+      section.two figure div {
+        margin: 0 auto;
+        float: none; }
+      section.two figure figcaption {
+        float: none;
+        width: 100%; }
+
+  footer {
+    padding: 4em 2em; }
+    footer h2 {
+      margin-bottom: .5em; }
+    footer form input {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -168,3 +168,68 @@ footer {
 		}
 	}
 }
+
+@include mobile {
+	header {
+		padding: 0;
+
+		img {
+			float: none;
+			display: block;
+			margin: 0 auto;
+		}
+
+		nav {
+			float: none;
+
+			ul {
+
+				li {
+					display: block;
+					text-align: center;
+					padding: 1em;
+
+					a {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+	section.two {
+		padding: 3em;
+
+		figure {
+			float: none;
+			display: block;
+			width: 100%;
+			margin-right: 0;
+
+			div {
+				margin: 0 auto;
+				float: none;
+
+			}
+
+			figcaption {
+				float: none;
+				width: 100%;
+			}
+		}
+	}
+
+	footer {
+		padding: 4em 2em;
+
+		h2 {
+			margin-bottom: .5em;
+		}
+
+		form {
+			input {
+				width: 100%;
+			}
+		}
+	}
+}
