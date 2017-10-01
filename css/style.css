@@ -59,9 +59,11 @@ section.one {
   section.one h1 {
     width: 50%;
     margin: 0 auto;
-    padding: 7em 0 .5em;
+    padding: 7em 0 0;
     text-align: center;
-    color: orange; }
+    color: orange;
+    border-bottom: 1px solid orange;
+    margin-bottom: .3em; }
   section.one h2 {
     width: 50%;
     margin: 0 auto;
@@ -74,7 +76,8 @@ h2 {
   color: orange;
   border-bottom: 1px solid orange;
   width: 90%;
-  margin: .7em auto .3em; }
+  margin: .7em auto .3em;
+  border: none; }
 
 section.two {
   width: 70%;
@@ -144,5 +147,44 @@ footer {
   background-color: blue;
   color: #fff;
   text-align: center; }
+
+@media screen and (max-width: 650px) {
+  section.one {
+    width: 100%; }
+    section.one h1 {
+      padding: 3em 0 0;
+      width: 100%; }
+    section.one h2 {
+      width: 100%; }
+
+  h2 {
+    width: 100%; }
+
+  section.two {
+    width: 100%;
+    padding: 2em;
+    padding-bottom: 0; }
+    section.two p:nth-of-type(2) {
+      column-count: 1;
+      text-align: justify; }
+    section.two figure {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 1em;
+      border-top: 1px solid blue; }
+    section.two figure:nth-of-type(2) {
+      margin: 0; }
+
+  section.three {
+    width: 100%;
+    padding: 2em; }
+    section.three form {
+      width: 100%;
+      float: none; }
+    section.three div {
+      display: none; }
+
+  footer {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

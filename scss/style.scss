@@ -46,9 +46,11 @@ section.one {
 	h1 {
 		width: 50%;
 		margin: 0 auto;
-		padding: 7em 0 .5em;
+		padding: 7em 0 0;
 		text-align: center;
 		color: orange;
+		border-bottom: 1px solid orange;
+		margin-bottom: .3em;
 	}
 
 	h2 {
@@ -66,6 +68,7 @@ h2 {
 	border-bottom: 1px solid orange;
 	width: 90%;
 	margin: .7em auto .3em;
+	border: none;
 }
 
 section.two {
@@ -160,4 +163,63 @@ footer {
 	background-color: blue;
 	color: #fff;
 	text-align: center;
+}
+
+@include mobile {
+	section.one {
+		width: 100%;
+
+		h1 {
+			padding: 3em 0 0;
+			width: 100%;
+		}
+
+		h2 {
+			width: 100%;
+		}
+	}
+
+	h2 {
+		width: 100%;
+	}
+
+	section.two {
+		width: 100%;
+		padding: 2em;
+		padding-bottom: 0;
+
+		p:nth-of-type(2) {
+			column-count: 1;
+			text-align: justify;
+		}
+
+		figure {
+			width: 100%;
+			margin: 0;
+			margin-bottom: 1em;
+			border-top: 1px solid blue;
+		}
+
+		figure:nth-of-type(2) {
+			margin: 0; 
+		}
+	}
+
+	section.three {
+		width: 100%;
+		padding: 2em;
+
+		form {
+			width: 100%;
+			float: none;
+
+		}
+
+		div {
+			display: none;
+		}
+	}
+	footer {
+		width: 100%;
+	}
 }
