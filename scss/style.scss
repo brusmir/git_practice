@@ -123,6 +123,10 @@ section.two {
 		td:first-child {
 			background-color: lightgrey;
 		}
+	}
+
+	a {
+		display: none;
 	}	
 }
 
@@ -194,6 +198,76 @@ footer {
 		div.map {
 			width: 100%;
 			text-align: center;
+		}
+	}
+}
+
+@include mobile {
+	header {
+		background: #000;
+		padding: 0;
+		height: auto;
+
+		nav {
+
+			div, ul {
+				float: none;
+			}
+
+			ul {
+				margin: 0 auto;
+
+				li {
+					display: block;
+					text-align: center;
+					padding: 1em;
+					margin: 0;
+				}
+			}
+		}
+
+		h1 {
+			margin-top: 1.5em;
+		}	
+
+		h2 {
+			padding-bottom: 1.5em;
+		}
+	}
+
+	section.one {
+		figure {
+			width: 100%;
+		}
+	}
+
+	section.two {
+		table {
+			display: none;
+		}
+
+		a {
+			color: #fff;
+			padding: .5em 2em;
+			text-decoration: none;
+			background-color: orange;
+			margin-top: 1em;
+			display: inline-block;
+		}
+	}
+
+	footer {
+		padding: 1.5em 2.5em;
+		text-align: center;
+
+		address, div.map {
+			padding: 0;
+		}
+
+		div.map {
+			iframe {
+				width: 100%;
+			}
 		}
 	}
 }
