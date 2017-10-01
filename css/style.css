@@ -109,4 +109,30 @@ section.two {
     section.two table td:first-child {
       background-color: lightgrey; }
 
+footer {
+  padding: 2em 10em;
+  background-color: #000; }
+  footer:before, footer:after {
+    content: "";
+    display: table; }
+  footer:after {
+    clear: both; }
+  footer div.logo {
+    border-bottom: 1px solid red;
+    margin-bottom: .5em;
+    color: grey;
+    padding-bottom: .3em; }
+    footer div.logo span {
+      color: red; }
+  footer address {
+    float: left;
+    width: 50%;
+    padding-left: 1em;
+    color: #fff; }
+  footer div.map {
+    float: right;
+    width: 50%;
+    padding-right: 1em;
+    text-align: right; }
+
 /*# sourceMappingURL=style.css.map */

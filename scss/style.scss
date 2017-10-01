@@ -125,3 +125,34 @@ section.two {
 		}
 	}	
 }
+
+footer {
+	padding: 2em 10em;
+	background-color: #000;
+	@include clearfix;
+
+	div.logo {
+		border-bottom: 1px solid red;
+		margin-bottom: .5em;
+		color: grey;
+		padding-bottom: .3em;
+
+		span {
+			color: red;
+		}
+	} 
+
+	address {
+		float: left;
+		width: 50%;
+		padding-left: 1em;
+		color: #fff;
+	}
+
+	div.map {
+		float: right;
+		width: 50%;
+		padding-right: 1em;
+		text-align: right;
+	}
+}
