@@ -156,3 +156,44 @@ footer {
 		text-align: right;
 	}
 }
+
+@include tablet {
+	header {
+		padding: 2em 1em;
+	}
+
+	h1 {
+		border-bottom: 1px solid red;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	section.one {
+		padding: 2em;
+
+		figure {
+			width: 50%;
+			margin-bottom: 2em;
+		}
+	}
+
+	section.two {
+		padding: 2em;	
+	}
+
+	footer {
+		div.logo {
+			text-align: center;
+		}
+
+		address {
+			width: 100%;
+			margin-bottom: 1em;
+		}
+
+		div.map {
+			width: 100%;
+			text-align: center;
+		}
+	}
+}
