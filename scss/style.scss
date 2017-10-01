@@ -84,3 +84,44 @@ section.one {
 		}
 	}	
 }
+
+section.two {
+	padding: 2em 10em;
+	text-align: center;
+
+	h3 {
+		color: grey;
+		padding: 2em;
+	}
+
+	table {
+		width: 80%;
+		margin: 0 auto;
+		border-collapse: collapse;
+
+		th, td {
+			padding: .5em;
+		}
+
+		thead {
+			th {
+				color: #fff;
+				background-color: red;
+			}
+		}
+
+		tbody {
+			td {
+				border-bottom: 1px solid grey;
+			}
+		}
+
+		th:first-child {
+			background-color: darkred;
+		}
+
+		td:first-child {
+			background-color: lightgrey;
+		}
+	}	
+}

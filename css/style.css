@@ -87,4 +87,26 @@ section.one {
       margin-top: 1em;
       display: inline-block; }
 
+section.two {
+  padding: 2em 10em;
+  text-align: center; }
+  section.two h3 {
+    color: grey;
+    padding: 2em; }
+  section.two table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse; }
+    section.two table th, section.two table td {
+      padding: .5em; }
+    section.two table thead th {
+      color: #fff;
+      background-color: red; }
+    section.two table tbody td {
+      border-bottom: 1px solid grey; }
+    section.two table th:first-child {
+      background-color: darkred; }
+    section.two table td:first-child {
+      background-color: lightgrey; }
+
 /*# sourceMappingURL=style.css.map */
